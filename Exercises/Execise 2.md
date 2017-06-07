@@ -1,4 +1,4 @@
-#Test Case Design Study Point Excercises
+# Test Case Design Study Point Excercises
 #### Hand In by Dennis Rønnebæk
 
 ### EQUIVALENCE PARTITIONING
