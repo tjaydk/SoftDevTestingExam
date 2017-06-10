@@ -1,4 +1,4 @@
-#Test Case Design Study Point Excercises
+# Test Case Design Study Point Excercises
 #### Hand In by Dennis Rønnebæk
 
 ### EQUIVALENCE PARTITIONING
@@ -10,6 +10,7 @@
 | Invalid | True                 | False                  | Invalid |
 
 #### 2. Make equivalences classes for an input variable that represents a mortgage applicant’s salary. The valid range is 1,000 pr. month to 75,000 pr. month
+
 | < 1000  | 1000-75.000 | > 75.000 |
 | ------- | ----------- | -------- |
 | Invalid | valid       | invalid  |
@@ -24,6 +25,7 @@ For year
 
 ### BOUNDARY VALUE ANALYSIS
 #### 1. Do boundary value analysis for equivalence partitioning exercise 1
+
 | 0       | 1            | 2           | 999           | 1000         | 1001    |
 | ------- | ------------ | ----------- | ------------- | ------------ | ------- |
 | Invalid | Lowest false | Lowest true | Highest false | Highest true | Invalid |
@@ -33,11 +35,13 @@ For year
 
 #### 3. Do boundary value analysis for equivalence partitioning exercise 3
 **For months**
+
 | 0       | 1     | 12    | 13      |
 | ------- | ----- | ----- | ------- |
 | Invalid | Valid | Valid | Invalid |
 
 **For years**
+
 | 0       | 1     | 9.999 | 10.000  |
 | ------- | ----- | ----- | ------- |
 | Invalid | Valid | Valid | Invalid |
@@ -48,6 +52,7 @@ For year
 ### DECISION TABLES
 #### 1. Make a decision table for the following business case:
 No charges are reimbursed (DK: refunderet) to a patient until the deductible (DK: selvrisiko) has been met. After the deductible has been met, reimburse 50% for Doctor's Office visits or 80% for Hospital visits.
+
 | Conditions:                      |      |      |      |
 | -------------------------------- | ---- | ---- | ---- |
 | Deductible met (hospital visit)  | N    | N    | Y    |
